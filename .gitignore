@@ -94,6 +94,10 @@ dist
 # Serverless directories
 .serverless/
 
+vendor
+
+*.wasm
+
 # FuseBox cache
 .fusebox/
 

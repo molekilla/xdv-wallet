@@ -1,0 +1,2 @@
+https://github.com/syndtr/goleveldb - storage
+https://pkg.go.dev/golang.org/x/crypto/bcrypt?tab=doc - passphrase

@@ -6,9 +6,12 @@ import (
 	"time"
 
 	"devt.de/krotik/eliasdb/graph/graphstorage"
+	shell "github.com/ipfs/go-ipfs-api"
 	"github.com/patrickmn/go-cache"
 	bip39 "github.com/tyler-smith/go-bip39"
 )
+
+var sh *shell.Shell
 
 // AlgType Algorithm type
 type AlgType = int
